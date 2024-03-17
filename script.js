@@ -23,7 +23,7 @@
             const city = document.querySelector(".city-input").value;
             if (city !== "") {
                 fetchWeatherData(city);
-                // document.querySelector(".city-input").value = "";
+                 document.querySelector(".city-input").value = "";
             } else {
                 document.getElementById("city").innerHTML = "Invalid";
             }
